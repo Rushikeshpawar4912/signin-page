@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $server = "localhost";
     $username = "root";
     $password = "";
-    $database = "phptutorial1";
+    $database = "phptutorial1"; // database name
     
 
     $con = mysqli_connect($server, $username, $password, $database);
