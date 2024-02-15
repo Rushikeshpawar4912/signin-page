@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+
+}
+.container{
+    max-width:80%;
+    background-color:rgb(218, 196, 196);
+    padding:34px;
+    margin:auto;
+    border-radius:20px;
+    border: 2px soild black;
+}
+.container h1{
+    text-align:center;
+   
+}
+input,textarea{
+    width:80%;
+    padding:7px;
+    font-size:24px;
+    display: block;
+    margin:12px auto
+}
+.btn{
+    width:95%;
+    border-radius:25px;
+    font-size:medium;
+    margin: 5px;
+    background-color:orangered;
+    color:whitesmoke;
+    height:50px;
+    font-weight:bold;
+}
